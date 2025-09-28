@@ -13,11 +13,11 @@ const dbConnection = async() => {
         }
         */
 
-        console.log('DB Online');
+        //console.log('DB Online');
         
 
     } catch (error) {
-        console.Console,log(error);
+        //console.log(error);
         throw new Error('Error en la base de datos - Hable con el admin');
     }
 

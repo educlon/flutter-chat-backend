@@ -39,7 +39,7 @@ const crearUsuario =  async ( req, res = response ) => {
         });
 
     } catch ( error ) {
-        console.log( error );
+        //console.log( error );
         res.status(500).json({
             ok: false,
             msg: 'Hable con el administrador'
@@ -82,7 +82,7 @@ const login =  async ( req, res = response ) => {
 
 
     } catch (error) {
-        console.log(error);
+        //console.log(error);
         return res.status(500).json({
             ok: false,
             msg: 'Hable con el administrador'
