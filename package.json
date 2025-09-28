@@ -1,15 +1,15 @@
 {
-  "name": "01-band_names_server",
+  "name": "maimchat2_server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Servicor de chat para Maimchat_v2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "start:dev": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Eduardo Sergio Campillay",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
