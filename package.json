@@ -1,7 +1,7 @@
 {
   "name": "maimchat2_server",
   "version": "1.0.0",
-  "description": "Servicor de chat para Maimchat_v2",
+  "description": "Servidor de chat para Maimchat_v2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
